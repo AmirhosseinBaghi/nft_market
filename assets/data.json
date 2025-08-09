@@ -1,5 +1,5 @@
 {
-    "NFT" :[
+    "NFT": [
         {
             "id": "1",
             "name": "Music",
@@ -15,20 +15,35 @@
             "name": "Digital",
             "imageUrl": "cover3.jpg"
         },
-         {
-            "id":"4",
+        {
+            "id": "4",
             "name": "Portrait Art",
             "imageUrl": "trending1.jpg"
         },
         {
-            "id":"5",
+            "id": "5",
             "name": "Abstract Art",
             "imageUrl": "trending2.jpg"
         },
         {
-            "id":"6",
+            "id": "6",
             "name": "Digital Art",
             "imageUrl": "trending3.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Digital Art",
+            "imageUrl": "seller1.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Digital Art",
+            "imageUrl": "seller2.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Digital Art",
+            "imageUrl": "seller3.jpg"
         }
     ]
 }
