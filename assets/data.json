@@ -1,5 +1,5 @@
 {
-    "Category" :[
+    "NFT" :[
         {
             "id": "1",
             "name": "Music",
@@ -14,26 +14,21 @@
             "id": "3",
             "name": "Digital",
             "imageUrl": "cover3.jpg"
-        }
-    ],
-    "trending":[
-        {
+        },
+         {
             "id":"4",
             "name": "Portrait Art",
-            "imageUrl": "trending1.jpg",
-            "likes":"2190"
+            "imageUrl": "trending1.jpg"
         },
         {
             "id":"5",
             "name": "Abstract Art",
-            "imageUrl": "trending2.jpg",
-            "likes":"186"
+            "imageUrl": "trending2.jpg"
         },
         {
             "id":"6",
             "name": "Digital Art",
-            "imageUrl": "trending3.jpg",
-            "likes":"967"
+            "imageUrl": "trending3.jpg"
         }
     ]
 }
