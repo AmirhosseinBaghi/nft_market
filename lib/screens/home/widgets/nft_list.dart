@@ -10,20 +10,21 @@ class NftList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16),
-          child: Text(title),
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          child: Text(title, style: Theme.of(context).textTheme.titleMedium),
         ),
         SizedBox(
-          height: 350,
+          height: 200,
           child: ListView.builder(
             itemCount: nft.length,
             clipBehavior: Clip.none,
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return Padding(
-                padding: EdgeInsets.only(right: 16),
+                padding: EdgeInsets.only(left: 16),
                 child: NftCard(nft: nft[index]),
               );
             },

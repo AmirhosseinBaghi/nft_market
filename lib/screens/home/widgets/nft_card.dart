@@ -9,9 +9,24 @@ class NftCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 220,
+      width: 160,
       child: Glassmorphism(
-        child: Column(children: [Image.asset('assets/images/${nft.imageUrl}')]),
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(14),
+                child: Image.asset(
+                  'assets/images/${nft.imageUrl}',
+                  fit: BoxFit.cover,
+                  height: 140,
+                  width: double.infinity,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

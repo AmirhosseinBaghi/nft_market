@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nft_market/core/constant.dart';
+import 'package:nft_market/screens/home/data/models/home_page_data.dart';
 import 'package:nft_market/screens/home/data/models/model.dart';
 import 'package:nft_market/screens/home/data/repository/nft_repository.dart';
 
@@ -12,8 +14,23 @@ class HomeProvider extends ChangeNotifier {
   List<NFT> _nft = [];
   List<NFT> get nft => _nft;
 
+  final HomePageData _homePageData = HomePageDataConstants.homePageData;
+  HomePageData get homePageData => _homePageData;
+
   fetchNft() async {
     _nft = await _nftRepository.fetchNft();
     notifyListeners();
+  }
+
+  List<NFT> getCategory() {
+    return _nft
+        .where((hotel) => _homePageData.category.contains(hotel.id))
+        .toList();
+  }
+
+  List<NFT> getTrending() {
+    return _nft
+        .where((hotel) => _homePageData.trending.contains(hotel.id))
+        .toList();
   }
 }
