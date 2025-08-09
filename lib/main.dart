@@ -17,6 +17,7 @@ void main() {
               ),
         ),
       ],
+      child: MyApp(),
     ),
   );
 }
