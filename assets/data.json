@@ -1,0 +1,39 @@
+{
+    "Category" :[
+        {
+            "id": "1",
+            "name": "Music",
+            "imageUrl": "cover1.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Art",
+            "imageUrl": "cover2.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Digital",
+            "imageUrl": "cover3.jpg"
+        }
+    ],
+    "trending":[
+        {
+            "id":"4",
+            "name": "Portrait Art",
+            "imageUrl": "trending1.jpg",
+            "likes":"2190"
+        },
+        {
+            "id":"5",
+            "name": "Abstract Art",
+            "imageUrl": "trending2.jpg",
+            "likes":"186"
+        },
+        {
+            "id":"6",
+            "name": "Digital Art",
+            "imageUrl": "trending3.jpg",
+            "likes":"967"
+        }
+    ]
+}
