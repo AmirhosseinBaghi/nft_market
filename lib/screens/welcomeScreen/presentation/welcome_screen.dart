@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nft_market/screens/home/home_screen.dart';
+import 'package:nft_market/routes/app_route.dart';
 import 'package:nft_market/shared/widgets/glassmorphism.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -76,11 +76,7 @@ class WelcomeScreen extends StatelessWidget {
                           ),
                         ),
                         onPressed: () {
-                          Navigator.of(context).push(
-                            MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
-                            ),
-                          );
+                          Navigator.of(context).pushNamed(AppRoute.home);
                         },
                         child: Text(
                           'Get Started now',
