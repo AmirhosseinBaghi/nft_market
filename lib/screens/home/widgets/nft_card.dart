@@ -25,6 +25,27 @@ class NftCard extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 6),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(nft.name, style: Theme.of(context).textTheme.titleSmall),
+                  Row(
+                    children: [
+                      Text("200", style: TextStyle(color: Colors.white)),
+                      SizedBox(width: 2),
+                      Icon(
+                        Icons.favorite_outlined,
+                        color: Colors.red,
+                        size: 14,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

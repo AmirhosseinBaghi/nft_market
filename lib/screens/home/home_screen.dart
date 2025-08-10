@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
           SizedBox(height: 16),
-          Text('NFT Marketplace', style: textTheme.displayMedium),
+          Text('NFT Marketplace', style: textTheme.titleLarge),
           SizedBox(height: 24),
           Consumer<HomeProvider>(
             builder: (context, homeProvider, child) {
@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             builder: (context, homeProvider, child) {
               return NftList(
                 title: 'Top seller',
-                nft: homeProvider.getTrending(),
+                nft: homeProvider.getTopSeller(),
               );
             },
           ),

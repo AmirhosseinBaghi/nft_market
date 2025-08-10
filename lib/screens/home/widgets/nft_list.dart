@@ -24,7 +24,10 @@ class NftList extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return Padding(
-                padding: EdgeInsets.only(left: 16),
+                padding:
+                    index == nft.length - 1
+                        ? EdgeInsets.only(right: 16, left: 16)
+                        : EdgeInsets.only(left: 16),
                 child: NftCard(nft: nft[index]),
               );
             },

@@ -31,7 +31,7 @@ class AppTheme {
 
         //home screen
         titleLarge: TextStyle(
-          fontSize: 20,
+          fontSize: 28,
           fontWeight: FontWeight.bold,
           color: Appcolors.lightText,
         ),
@@ -41,7 +41,7 @@ class AppTheme {
           color: Appcolors.lightText,
         ),
         titleSmall: TextStyle(
-          fontSize: 16,
+          fontSize: 14,
           fontWeight: FontWeight.w600,
           color: Appcolors.lightText,
         ),

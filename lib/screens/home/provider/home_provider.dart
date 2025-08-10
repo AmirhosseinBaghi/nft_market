@@ -33,4 +33,10 @@ class HomeProvider extends ChangeNotifier {
         .where((hotel) => _homePageData.trending.contains(hotel.id))
         .toList();
   }
+
+  List<NFT> getTopSeller() {
+    return _nft
+        .where((hotel) => _homePageData.topSeller.contains(hotel.id))
+        .toList();
+  }
 }
