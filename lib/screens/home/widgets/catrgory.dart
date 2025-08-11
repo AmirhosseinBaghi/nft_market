@@ -8,7 +8,7 @@ class CatrgoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      padding: EdgeInsets.symmetric(vertical: 12),
       child: SizedBox(
         height: 150,
         child: ListView.builder(
@@ -28,12 +28,14 @@ class CatrgoryItem extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
-                  Positioned(
-                    bottom: 4,
-                    left: 90,
-                    child: Text(
-                      currentNft.name,
-                      style: Theme.of(context).textTheme.titleLarge,
+                  Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 88, bottom: 10.0),
+                      child: Text(
+                        currentNft.name,
+                        style: Theme.of(context).textTheme.titleLarge,
+                      ),
                     ),
                   ),
                 ],

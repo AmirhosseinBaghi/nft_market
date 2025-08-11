@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:nft_market/screens/home/home_screen.dart';
 import 'package:nft_market/screens/profile_test.dart';
+import 'package:nft_market/screens/statesScreen/states_screen.dart';
 import 'package:nft_market/screens/stats_test.dart';
 
 class MainBottomNav extends StatefulWidget {
@@ -17,6 +18,7 @@ class _MainBottomNavState extends State<MainBottomNav> {
 
   static const List<Widget> _widgetOption = <Widget>[
     HomeScreen(),
+    StatesScreen(),
     ProfileTest(),
     StatsTest(),
   ];
