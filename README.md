@@ -1,5 +1,3 @@
-
-```markdown
 # 🖼 NFT Market
 
 A sample NFT marketplace app built with **Flutter** using **Provider** for state management.
@@ -21,7 +19,7 @@ A sample NFT marketplace app built with **Flutter** using **Provider** for state
 ## 🚀 Getting Started
 1. Clone the repository:
 ```bash
-git clone https://github.com/USERNAME/nft-market.git
+git clone https://github.com/AmirhosseinBaghi/nft_market.git
 ````
 
 2. Navigate to the project folder:
@@ -44,7 +42,7 @@ flutter run
 
 ## 📸 Screenshots
 
-*(assets/readme/screenshot.jpg)*
+(assets/readme/screenshot.jpg)
 
 | Home Screen                   | Details Screen                      |
 | ----------------------------- | ----------------------------------- |
