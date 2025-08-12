@@ -1,16 +1,51 @@
-# nft_market
 
-A new Flutter project.
+```markdown
+# 🖼 NFT Market
 
-## Getting Started
+A sample NFT marketplace app built with **Flutter** using **Provider** for state management.
 
-This project is a starting point for a Flutter application.
+## 📌 Features
+- Display a list of NFTs with image, name, and price
+- View NFT details
+- Add NFTs to favorites
+- State management with **Provider**
+- Responsive design for mobile and tablet
+- Sample data provided via JSON
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Technologies
+- **Flutter** (SDK: 3.x.x)
+- **Provider** for state management
+- **Dart**
+- **JSON** for mock data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/USERNAME/nft-market.git
+````
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the project folder:
+
+```bash
+cd nft-market
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the project:
+
+```bash
+flutter run
+```
+
+## 📸 Screenshots
+
+*(assets/readme/screenshot.jpg)*
+
+| Home Screen                   | Details Screen                      |
+| ----------------------------- | ----------------------------------- |
+| ![Home](assets/readme/home.png) | ![Details](assets/readme/nft.png) |
