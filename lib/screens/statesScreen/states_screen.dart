@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nft_market/core/theme.dart';
+import 'package:nft_market/screens/statesScreen/provider/stats_provider.dart';
 import 'package:nft_market/screens/statesScreen/widget/filtter_botton_section.dart';
+import 'package:nft_market/screens/statesScreen/widget/nft_list.dart';
+import 'package:provider/provider.dart';
 
 class StatesScreen extends StatefulWidget {
   const StatesScreen({super.key});
@@ -95,6 +98,17 @@ class _StatesScreenState extends State<StatesScreen>
             ],
           ),
           FiltterBottonSection(),
+          Consumer<StatsProvider>(
+            builder: (context, statsProvider, child) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16.0,
+                  vertical: 12,
+                ),
+                child: NftList(nftList: statsProvider.stats),
+              );
+            },
+          ),
         ],
       ),
     );
