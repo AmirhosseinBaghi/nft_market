@@ -1,6 +1,6 @@
-# 🖼 NFT Market
+# 🖼 NFT Market UI
 
-A sample NFT marketplace app built with **Flutter** using **Provider** for state management.
+A sample UI NFT marketplace app built with **Flutter** using **Provider** for state management.
 
 ## 📸 Screenshots
 
@@ -15,7 +15,7 @@ A sample NFT marketplace app built with **Flutter** using **Provider** for state
 - Sample data provided via JSON
 
 ## 🛠 Technologies
-- **Flutter** (SDK: 3.x.x)
+- **Flutter** (SDK: 3.29.3)
 - **Provider** for state management
 - **Dart**
 - **JSON** for mock data
