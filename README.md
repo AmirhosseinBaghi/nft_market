@@ -2,6 +2,10 @@
 
 A sample NFT marketplace app built with **Flutter** using **Provider** for state management.
 
+## 📸 Screenshots
+
+![ScreenShot](assets/readme/screenshot.jpg)
+
 ## 📌 Features
 - Display a list of NFTs with image, name, and price
 - View NFT details
@@ -39,10 +43,6 @@ flutter pub get
 ```bash
 flutter run
 ```
-
-## 📸 Screenshots
-
-(assets/readme/screenshot.jpg)
 
 | Home Screen                   | Details Screen                      |
 | ----------------------------- | ----------------------------------- |
